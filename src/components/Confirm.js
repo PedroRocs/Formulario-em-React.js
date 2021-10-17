@@ -25,31 +25,31 @@ export class Confirm extends Component {
     return (
         <MuiThemeProvider>
             <React.Fragment>
-            <AppBar title="Confirm User Data" />
+            <AppBar title="Confira o seus dados" />
          
             <List>
             <ListItem
-            primaryText="FIRST NAME"
+            primaryText="PRIMEIRO NOME"
             secondaryText={firstName}
             />
 
             <ListItem
-            primaryText="Last Name"
+            primaryText="ULTIMO NOME"
             secondaryText={lastName}
             />
 
             <ListItem
-            primaryText="Email"
+            primaryText="E-mail"
             secondaryText={email}
             />
 
             <ListItem
-            primaryText="Occupation"
+            primaryText="OCUPAÇÃO"
             secondaryText={occupation}
             />
 
             <ListItem
-            primaryText="City"
+            primaryText="CIDADE"
             secondaryText={city}
             />
 

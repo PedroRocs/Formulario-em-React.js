@@ -4,6 +4,7 @@ import AppBar from 'material-ui/AppBar';
 
 
 
+
 export class Sucess extends Component {
     
     continue = e => {
@@ -17,7 +18,7 @@ export class Sucess extends Component {
             <React.Fragment>
             <AppBar title="Sucess" />
          <h1>Obrigado pela sua inscrição</h1>
-         <p>Confira seu E-mail para saber as demais Instruções</p>
+         <p>Confira seu E-mail para saber as demais Instruções.</p>
             </React.Fragment>
            
         </MuiThemeProvider>
